@@ -5,6 +5,9 @@ import ParamsHook from './component/useParamHook'
 import WithoutUseMemo from './component/useMemoHook';
 import ParentUseCallback from './component/useCallbackHook'
 import CounterReducer from './component/useReducerHok'
+import FruitList from './component/List'
+import ControlledInput from './component/ControlledComp'
+import UncontrolledInput from './component/UncontrolledComp'
 
 
 function App() {
@@ -19,6 +22,13 @@ function App() {
       <ParentUseCallback />
 
       <CounterReducer/>
+      <FruitList/>
+      <ControlledInput/>
+
+      <UncontrolledInput/>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
