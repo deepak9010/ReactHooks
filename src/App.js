@@ -8,6 +8,8 @@ import CounterReducer from './component/useReducerHok'
 import FruitList from './component/List'
 import ControlledInput from './component/ControlledComp'
 import UncontrolledInput from './component/UncontrolledComp'
+import UseContextHook from './component/useContextHook';
+import ContextApi from './component/ContextApi'
 
 
 function App() {
@@ -29,6 +31,12 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
+
+      <UseContextHook/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <ContextApi/>
     </div>
   );
 }
