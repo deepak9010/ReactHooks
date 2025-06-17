@@ -10,7 +10,8 @@ import ControlledInput from './component/ControlledComp'
 import UncontrolledInput from './component/UncontrolledComp'
 import UseContextHook from './component/useContextHook';
 import ContextApi from './component/ContextApi'
-
+import UserListWithLoadingDemo from './component/HOC/UserListWithLoadingDemo';
+import ContextApiDemo from './component/ContextAPI/ContextApiDemo';
 
 function App() {
   return (
@@ -37,6 +38,14 @@ function App() {
       <br></br>
       <br></br>
       <ContextApi/>
+
+      {/* HOC */}
+      <UserListWithLoadingDemo/>
+
+      <br></br>
+      <br></br>
+      {/* Context API */}
+      <ContextApiDemo />
     </div>
   );
 }
