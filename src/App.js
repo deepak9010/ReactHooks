@@ -44,7 +44,7 @@ function App() {
 
       <br></br>
       <br></br>
-      {/* Context API */}
+      {/* Context API and useContext Hook */}
       <ContextApiDemo />
     </div>
   );
