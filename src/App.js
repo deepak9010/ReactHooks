@@ -12,6 +12,7 @@ import UseContextHook from './component/useContextHook';
 import ContextApi from './component/ContextApi'
 import UserListWithLoadingDemo from './component/HOC/UserListWithLoadingDemo';
 import ContextApiDemo from './component/ContextAPI/ContextApiDemo';
+import CustomComponent from './component/CustomHook/customComponent'
 
 function App() {
   return (
@@ -46,6 +47,11 @@ function App() {
       <br></br>
       {/* Context API and useContext Hook */}
       <ContextApiDemo />
+
+      <br></br>
+      <br></br>
+        {/* custom Hook */}
+      <CustomComponent/>
     </div>
   );
 }
