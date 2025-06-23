@@ -13,6 +13,7 @@ import ContextApi from './component/ContextApi'
 import UserListWithLoadingDemo from './component/HOC/UserListWithLoadingDemo';
 import ContextApiDemo from './component/ContextAPI/ContextApiDemo';
 import CustomComponent from './component/CustomHook/customComponent'
+import ParentComp from './component/LiftingStateUp/Parentcomp';
 
 function App() {
   return (
@@ -52,6 +53,12 @@ function App() {
       <br></br>
         {/* custom Hook */}
       <CustomComponent/>
+      <br></br>
+      <br></br>
+        {/* lifting state up */}
+      <ParentComp />
+      <br></br>
+      <br></br>
     </div>
   );
 }
