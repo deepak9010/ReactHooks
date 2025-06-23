@@ -14,6 +14,7 @@ import UserListWithLoadingDemo from './component/HOC/UserListWithLoadingDemo';
 import ContextApiDemo from './component/ContextAPI/ContextApiDemo';
 import CustomComponent from './component/CustomHook/customComponent'
 import ParentComp from './component/LiftingStateUp/Parentcomp';
+import LifecycleExample from './component/Lifecycle/compLifecycle'
 
 function App() {
   return (
@@ -59,6 +60,8 @@ function App() {
       <ParentComp />
       <br></br>
       <br></br>
+
+      <LifecycleExample />
     </div>
   );
 }
